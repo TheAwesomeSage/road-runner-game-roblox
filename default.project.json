@@ -1,0 +1,53 @@
+{
+  "name": "road-runner-game-roblox",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "LaneChange": { "$className": "RemoteEvent" },
+        "Jump": { "$className": "RemoteEvent" },
+        "RunEvent": { "$className": "RemoteEvent" }
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "ServerStorage": {
+      "ChunkTemplates": {
+        "$className": "Folder"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "StreamingEnabled": false
+      }
+    },
+
+    "Lighting": {
+      "$properties": {
+        "ClockTime": 14.5,
+        "FogColor": [0.75, 0.82, 0.9],
+        "FogStart": 150,
+        "FogEnd": 340
+      }
+    }
+  }
+}
