@@ -1,0 +1,28 @@
+# Roblox place and model files (keep source in src/ instead)
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Rojo / tooling output
+sourcemap.json
+Packages/
+ServerPackages/
+DevPackages/
+build/
+out/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
